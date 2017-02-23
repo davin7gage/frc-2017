@@ -31,7 +31,7 @@ public class DriveTime extends Command {
 	// Called repeatedly when this Command is scheduled to run
 	@Override
 	protected void execute() {
-		Robot.drive.driveStraightGyro(speed);
+		Robot.drive.driveStraight(speed);
 	}
 
 	// Make this return true when this Command no longer needs to run execute()
